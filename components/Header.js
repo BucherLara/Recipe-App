@@ -1,4 +1,4 @@
-import { CiIceCream } from "react-icons/Ci";
+import { CiIceCream } from "react-icons/ci";
 import styled from "styled-components";
 import Link from "next/link";
 

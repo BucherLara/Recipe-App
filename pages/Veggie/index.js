@@ -7,7 +7,7 @@ export default function Veggie() {
     <>
       <h1> This is the veggie Page </h1>
       <p>Vegan pizza</p>
-      <Image src={pizza} alt="picture of pizza" />
+      <Image src={pizza} alt="picture of pizza" width={600} height={400} />
     </>
   );
 }

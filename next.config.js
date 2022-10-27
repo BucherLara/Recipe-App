@@ -5,7 +5,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  // image: {remotePattern:[{protocoll}]}
+  images: { remotePatterns: [{ protocol: "https", hostname: "unsplash.com" }] },
 };
 
 module.exports = nextConfig;

@@ -10,7 +10,9 @@ export default function Header() {
         This is our recipe App
         <IceCream size="5rem" />
         <StyledNavigation>
+          {/* <Link passHref legacyBehavior> */}
           <Anchor>Startseite</Anchor>
+          {/* </Link> */}
           <Anchor>Produkte</Anchor>
           <Anchor>Kategorien</Anchor>
         </StyledNavigation>

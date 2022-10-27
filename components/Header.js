@@ -6,15 +6,18 @@ export default function Header() {
   return (
     <div>
       <StyledHeadline>
-        {" "}
         This is our recipe App
         <IceCream size="5rem" />
         <StyledNavigation>
-          {/* <Link passHref legacyBehavior> */}
-          <Anchor>Startseite</Anchor>
-          {/* </Link> */}
-          <Anchor>Produkte</Anchor>
-          <Anchor>Kategorien</Anchor>
+          <Link href="/" passHref legacyBehavior>
+            <Anchor>Home</Anchor>
+          </Link>
+          <Link href="/Desserts" passHref legacyBehavior>
+            <Anchor>Desserts</Anchor>
+          </Link>
+          <Link href="/Veggie" passHref legacyBehavior>
+            <Anchor>Veggie</Anchor>
+          </Link>
         </StyledNavigation>
       </StyledHeadline>
     </div>
